@@ -16,11 +16,10 @@ This Android application fetches articles from a news API, displays them in a Re
 The Articles Fetcher app utilizes the [NewsAPI](https://newsapi.org) to fetch articles related to business in the US. NewsAPI is a simple HTTP REST API for searching and retrieving live articles from all over the web. Users can view a list of articles, read their descriptions, and perform a dynamic search to filter articles by title. If no articles match the search criteria, the app displays a "No results found" message.
 
 ## Features
-
+- Using MVVM Architecture
 - Fetch articles from [NewsAPI](https://newsapi.org)
 - Search articles dynamically by title
 - Display "No results found" if no articles match the search
-- Handles offline scenarios gracefully
 
 ## Architecture
 The app follows the MVVM (Model-View-ViewModel) architecture, promoting a clear separation of concerns:
@@ -36,6 +35,18 @@ The application uses the following libraries and dependencies:
 * Gson: For parsing JSON data from the API.
 * Glide: For image loading and caching.
 * Lifecycle: To manage UI-related data in a lifecycle-conscious way.
+
+```kt
+
+    //Retrofit
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+    //Glide
+    implementation ("com.github.bumptech.glide:glide:4.12.0")
+    //Room
+    implementation ("androidx.room:room-runtime:2.5.0")
+
+```
   
 ## Getting Started
 To get started with the project, follow these steps:
