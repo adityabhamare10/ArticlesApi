@@ -16,7 +16,7 @@ public class Repository {
 
     private static final String BaseUrl = "https://newsapi.org/v2/";
     private final ApiService apiService;
-    private static final String ApiKey = "bc4b35c85e64464684b95ce95e14e6e9";
+    private static final String ApiKey = "API-KEY";
 
     public Repository(){
         Retrofit retrofit = new Retrofit.Builder()
