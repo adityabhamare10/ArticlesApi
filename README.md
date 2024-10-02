@@ -65,6 +65,5 @@ If no articles match the search, a "No results found" message will be displayed.
 
 ## Demo Video
   
-https://drive.google.com/file/d/11kXlDhpfTM3nl0LwInlk2Cqs6CVwxfcl/view?usp=sharing
-
+[![Watch the demo](images/demo_thumbnail.png)](https://drive.google.com/file/d/11kXlDhpfTM3nl0LwInlk2Cqs6CVwxfcl/view?usp=sharing)
 
